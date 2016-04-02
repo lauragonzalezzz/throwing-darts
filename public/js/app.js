@@ -9,7 +9,6 @@ function scoreThrows(arr){
     else {
       scores = 10;
     };
-    console.log('scores',scores);
     return scores;
   });
 
