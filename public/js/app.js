@@ -17,13 +17,10 @@ function scoreThrows(arr){
     return prev + current;
   }, 0);
 
-  if (totalScore === arr.length * 10){
+  if (totalScore > 0 && totalScore === arr.length * 10){
     totalScore = totalScore + 100;
   };
 
-  console.log('totalScore',totalScore);
   return totalScore;
 
 }; //End of scoreThrows
-
-scoreThrows([3,4,2,1]);
